@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("/img/bg_image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    /*opacity: .9;*/
+}
+
+#content {
+    text-align: center;
+    padding-top: 18em;
+    color: whitesmoke;
+}
+
+h1 {
+    font-size: 78px;
+    opacity: .8;
+    transform: .3s;
+}
+
+h3 {
+    font-size: 32px;
+    margin-top: .5em;
+    transition: .2s;
+    opacity: .8;
+}
+
+h1:hover {
+    opacity: 1;
+}
+
+h3:hover {
+    font-size: 38px;
+    opacity: 1;
+}
